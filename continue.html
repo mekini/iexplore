@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>iExplore</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Century Gothic;
+}
+
+body  {
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img/jpg/boracay.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+.active {
+    background-color: #00BFFF;
+    color: white;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #00BFFF;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.button {
+    margin-top: 30px;
+    margin-left: 650px;
+}
+
+.btn-one {
+   border: 2px solid white;
+   padding: 10px 30px:
+   color: white;
+   text-decoration: none;
+   margin-right: 5px;
+   font-size: 20px;
+   text-transform: uppercase;
+
+}
+
+.btn-one:hover {
+   background-color: #00BFFF;
+   transition: all 0.5s ease-in;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    color: white;
+    text-align: center;
+    width: 33.33%;
+    padding: 10px 15px;
+    height: 509px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    background-color: #2c9865f7;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: century gothic;
+    border-radius: 8px;
+}
+
+.button1:hover {
+    background-color: #00BFFF;
+    color: black;
+}
+
+b a {
+    text-decoration: none;
+    color: black;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <ul>
+  <li><a class="active" href="iExploreHome.html">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Places</a>
+    <div class="dropdown-content">
+      <a href="Luzon.html">Luzon</a>
+      <a href="Visayas.html">Visayas</a>
+      <a href="Mindanao.html">Mindanao</a>
+    </div>
+  <li><a href="Contacts.html">Contacts</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About</a>
+    <div class="dropdown-content">
+      <a href="TheWebpage.html">The Webpage</a>
+      <a href="OurTeam.html">Our Team</a>
+    </div>
+  </li>
+</ul>
+</div>
+
+
+<div class="text">
+<p>iExplore want you to visit all over the beautiful places in the Philippines
+</div>
+<div class="row">
+  <div class="column" style="background-color:#bbbbbb63;">
+    <h1 style="color:#00BFFF">Chocolate Hills</h1>
+     <img src="img/jpg/chocolate_hills_bohol_philippines2.jpg" class="w3-round-large" alt="Simala Shrine" style="width:80%">
+     <b><a class="button button1" href="EN1.html">Explore Now!</a></b>
+  </div>
+  <div class="column" style="background-color:#bbbbbb63;">
+    <h1 style="color:#00BFFF";>Enchanted River</h1>
+    <img src="img/jpg/Enchanted-River-Surigao-del-Sur.jpg" class="w3-round-large" alt="Simala Shrine" style="width:80%">
+    <b><a class="button button1" href="EN2.html">Explore Now!</a></b>
+  </div>
+  <div class="column" style="background-color:#bbbbbb63;">
+    <h1 style="color:#00BFFF";>Boracay Island</h1>
+    <img src="img/jpg/boracay-021818.jpg" class="w3-round-large" alt="Simala Shrine" style="width:80%">
+    <b><a class="button button1" href="EN3.html">Explore Now!</a></b>
+  </div>
+  <div class="column" style="background-color:#bbbbbb63;">
+    <h1 style="color:#00BFFF";>Bangui Wind Mills</h1>
+    <img src="img/jpg/bangui-wind-mills-ilocos-norte.jpg" class="w3-round-large" alt="Simala Shrine" style="width:80%">
+    <b><a class="button button1" href="EN4.html">Explore Now!</a></b>
+  </div>
+  <div class="column" style="background-color:#bbbbbb63;">
+    <h1 style="color:#00BFFF";>Banaue Rice Terraces</h1>
+    <img src="img/jpg/banaue-rice-terraces-in-philippines_overview_5766.jpg" class="w3-round-large" alt="Simala Shrine" style="width:80%">
+    <b><a class="button button1" href="EN5.html">Explore Now!</a></b>
+  </div>
+  <div class="column" style="background-color:#bbbbbb63;">
+    <h1 style="color:#00BFFF";>Dinagat Island</h1>
+    <img src="img/jpg/Dinagat_Island_DU8-NW5H.jpg" class="w3-round-large" alt="Simala Shrine" style="width:80%">
+    <b><a class="button button1" href="EN6.html">Explore Now!</a></b>
+  </div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+
+</body>
+<html>
